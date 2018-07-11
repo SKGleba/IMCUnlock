@@ -18,7 +18,7 @@ The only downside is that you "loose" pd0 - "Welcome Park" and default BGM (it b
 
 2) Make a backup of all important ur0 files (they should be safe, but better when we are sure)
 
-3) Open IMCUnlock, accept the agreement, and navigate to "Options->Backup", and select "Backup vd0". Eventually you may backup pd0/tm0/id_data too. Dumps are saved to ux0:data/%name%.img
+3) Open IMCUnlock, accept the agreement, navigate to "Options->Backup", and select "Backup vd0". Eventually you may backup pd0/tm0/id_data too. Dumps are saved to ux0:data/%name%.img
 
 4) Disable all unnecessary plugins, and reboot.
 
@@ -59,4 +59,5 @@ The only downside is that you "loose" pd0 - "Welcome Park" and default BGM (it b
  # Useful notes:
 - You can not use unofficial enso mods that are not listed as "supported".
 - I recommend doing a backup of pd0:
+- The 300MB storage is in reality a ~250MB one.
 - For any serious issue/help DM me on twitter (twitter.com/skgleba)
