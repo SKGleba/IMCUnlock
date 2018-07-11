@@ -8,24 +8,23 @@ if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
   endif()
 endif()
 
-project(kplugin)
+project(inarw)
 include("${VITASDK}/share/vita.cmake" REQUIRED)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wl,-q -Wall -O3 -nostdlib")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-rtti -fno-exceptions")
 
-add_executable(kplugin
+add_executable(inarw
   main.c
 )
 
-target_link_libraries(kplugin
+target_link_libraries(inarw
   SceIofilemgrForDriver_stub
   SceSysclibForDriver_stub
   SceSysmemForDriver_stub
-  ScePdSysconMgr4K_stub
   SceModulemgrForKernel_stub
   SceModulemgrForDriver_stub
   SceThreadmgrForDriver_stub
 )
 
-vita_create_self(kplugin.skprx kplugin CONFIG exports.yml UNSAFE)
+vita_create_self(kplugin.skprx inarw CONFIG exports.yml UNSAFE)
