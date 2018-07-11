@@ -5,25 +5,25 @@ MBR Magic by SKGleba
 
 # This guide applies ONLY to Playstation Vita 1XXX models, commonly called "Phat".
 # Introduction:
-This mod allows you to _permanently_ add a internal ux storage to PSVita Phat by modifying boot data regions.
+This mod allows you to _permanently_ add a internal ux0 storage to a PSVita Phat by modifying boot data regions.
 
 ![ref1](https://cdn.discordapp.com/attachments/466454244929699861/466458976901529600/IMG_20180710_180418.jpg)
 
-The only downside is that you "loose" pd0 - "Welcome Park" and default BGM (it becomes either iux0 or ur0).
+The only downside is that you "lose" pd0 - "Welcome Park" and default BGM (it becomes either internal ux0 or ur0).
 
 ![ref2](https://cdn.discordapp.com/attachments/466454244929699861/466460781756809216/IMG_20180711_062701.jpg)
 
 # Installation:
 1) Download and install the provided VPK file. If you are using ENSO NSKBL hack, make sure that the correct enso installer is installed.
 
-2) Make a backup of all important ur0 files (they should be safe, but better when we are sure)
+2) Make a backup of all important ur0 files (they should be safe, but better to be sure)
 
 3) Open IMCUnlock, accept the agreement, navigate to "Options->Backup", and select "Backup vd0". Eventually you may backup pd0/tm0/id_data too. Dumps are saved to ux0:data/%name%.img
 
-4) Disable all unnecessary plugins, and reboot.
+4) Disable all unnecessary plugins and reboot.
 
 5) Now, we will install the mod. Open IMCUnlock, accept the agreement and:
-  - If you want to proceed with default install (pd0 removed, ur0 trimmed to 300mb, and internal ux0 of size ~2.5GB created) - select "Enable internal ux storage"
+  - If you want to proceed with the default install (pd0 removed, ur0 trimmed to 300mb, and internal ux0 of size ~2.5GB created) - select "Enable internal ux storage"
   
   - If you want to proceed with the ur0-untouched install (pd0 removed, and internal ux0 of size ~300MB created) - navigate to "Options->Storage size", and select "300MB"
   
