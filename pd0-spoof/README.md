@@ -6,9 +6,12 @@ This allows you to spoof pd0 with sys BGM on a retail 3.60/3.65/3.67/3.68 Playst
 
 ![ref1](https://pbs.twimg.com/media/Dh5tsVFXkAIl9Xw.jpg)
 
-It was made for IMCUnlock(ed) PSVitas
-For enso users - all bgm is back. 
+It was made for IMCUnlock(ed) PSVitas.
+
+For enso users - all bgm is back.
+
 For non-enso users - no default shell BGM, but the rest is back.
+
 # Installation:
 1) Download and install the provided VPK file.
 2) Open your main tai config (i.e ux0:tai/config.txt)
