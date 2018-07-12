@@ -4,6 +4,7 @@ MBR Magic by SKGleba
 ![ref0](https://cdn.discordapp.com/attachments/466454495258476545/466463541185216512/IMG_20180711_063013.jpg)
 
 # This guide applies ONLY to Playstation Vita 1XXX models, commonly called "Phat".
+If you have a Playstation Vita Slim/TV check out https://github.com/SKGleba/IMCExtend
 # Introduction:
 This mod allows you to _permanently_ add a internal ux0 storage to a PSVita Phat by modifying boot data regions.
 
