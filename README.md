@@ -17,7 +17,7 @@ The only downside is that you "lose" pd0 - "Welcome Park" and default BGM (it be
 Although you can get back the BGM by using https://github.com/SKGleba/IMCUnlock/tree/master/pd0-spoof
 
 # Installation:
-1) Download and install the provided VPK file. If you are using ENSO NSKBL hack, make sure that the correct enso installer is installed.
+1) Download and install the provided VPK file. If you are using ENSO NSKBL hack, make sure that the correct enso installer is installed (You can grab one from here: https://github.com/SKGleba/IMCUnlock/tree/master/enso-installers)
 
 2) Make a backup of all important ur0 files (they should be safe, but better to be sure)
 
