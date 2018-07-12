@@ -14,7 +14,7 @@ The only downside is that you "lose" pd0 - "Welcome Park" and default BGM (it be
 
 ![ref2](https://cdn.discordapp.com/attachments/466454244929699861/466460781756809216/IMG_20180711_062701.jpg)
 
-Althought you can "Bypass" it by using https://github.com/SKGleba/IMCUnlock/tree/master/pd0-spoof
+Although you can get back the BGM by using https://github.com/SKGleba/IMCUnlock/tree/master/pd0-spoof
 
 # Installation:
 1) Download and install the provided VPK file. If you are using ENSO NSKBL hack, make sure that the correct enso installer is installed.
