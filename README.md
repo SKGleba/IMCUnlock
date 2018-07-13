@@ -17,7 +17,7 @@ The only downside is that you "lose" pd0 - "Welcome Park" and default BGM (it be
 Although you can get back the BGM by using https://github.com/SKGleba/IMCUnlock/tree/master/pd0-spoof
 
 # Installation:
-1) Download and install the provided VPK file. If you are using ENSO NSKBL hack, make sure that the correct enso installer is installed (You can grab one from here: https://github.com/SKGleba/IMCUnlock/tree/master/enso-installers)
+1) Download and install the provided VPK file. If you are using ENSO NSKBL hack, make sure that the correct enso installer is installed (You can grab one from here: https://github.com/SKGleba/IMCUnlock/tree/master/enso-installers), DO NOT SKIP THAT STEP!.
 
 2) Make a backup of all important ur0 files (they should be safe, but better to be sure)
 
@@ -37,7 +37,7 @@ Although you can get back the BGM by using https://github.com/SKGleba/IMCUnlock/
 8) After flashing, the following screen should appear:
 ![ref6](https://cdn.discordapp.com/attachments/466454495258476545/466462385499275274/IMG_20180711_063154.jpg)
 
-9) If you are a user of ENSO NSKBL hack - launch the enso installer and install enso, otherwise - reboot.
+9) If you are a user of ENSO NSKBL hack - launch the enso installer and install enso (DO NOT SKIP THAT STEP!), otherwise - reboot.
 
 10) If your vita reboots fine - thats it! You just permanently enabled internal ux0 storage on your phat vita.
 
