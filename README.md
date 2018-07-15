@@ -60,6 +60,7 @@ Although you can get back the BGM by using https://github.com/SKGleba/IMCUnlock/
    - A: paypal.me/skgleba (thx! ^_^)
  
  # Useful notes:
+- You should uninstall IMCUnlock from a external storage device i.e sony mc or sd2vita, because the risk of softlocking the vita is high.
 - You can not use unofficial enso mods that are not listed as "supported".
 - I recommend doing a backup of pd0:
 - The 300MB storage is in reality a ~250MB one.
