@@ -46,6 +46,8 @@ Although you can get back the BGM by using https://github.com/SKGleba/IMCUnlock/
    - A: Yes, the only way to remove the mod is to uninstall via the provided manager.
  - Q: Can I update when a new firmware comes out?
    - A: No, you should wait for someone to confirm that it works/or that it breaks the vita.
+ - Q: Everything flashed fine, but i dont have the additional partition.
+   - A: Reset tai config, and try again.
  - Q: My device is stuck on bootlogo/health warning/spinning circle, help!
    - A: If enso logo - reinstall the firmware, If sony logo/health warning/spinning circle - remove sony mc, boot to safemode, select "Format Memory Card". Alternatively, system restore may help.
  - Q: Why the vita does a soft reboot when i remove/insert the mc?
