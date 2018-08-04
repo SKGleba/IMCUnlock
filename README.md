@@ -10,12 +10,6 @@ This mod allows you to _permanently_ add a internal ux0 storage to a PSVita Phat
 
 ![ref1](https://cdn.discordapp.com/attachments/466454244929699861/466458976901529600/IMG_20180710_180418.jpg)
 
-The only downside is that you "lose" pd0 - "Welcome Park" and default BGM (it becomes either internal ux0 or ur0).
-
-![ref2](https://cdn.discordapp.com/attachments/466454244929699861/466460781756809216/IMG_20180711_062701.jpg)
-
-Although you can get back the BGM by using https://github.com/SKGleba/IMCUnlock/tree/master/pd0-spoof
-
 # Installation:
 1) Download and install the provided VPK file. If you are using ENSO NSKBL hack, make sure that the correct enso installer is installed (You can grab one from here: https://github.com/SKGleba/IMCUnlock/tree/master/enso-installers), DO NOT SKIP THAT STEP!.
 
@@ -25,11 +19,29 @@ Although you can get back the BGM by using https://github.com/SKGleba/IMCUnlock/
 
 4) Disable all unnecessary plugins and reboot.
 
-5) Now, we will install the mod. Open IMCUnlock, accept the agreement and:
-  - If you want to proceed with the default install (pd0 removed, ur0 trimmed to 300mb, and internal ux0 of size ~2.5GB created) - select "Enable internal ux storage"
-  
-  - If you want to proceed with the ur0-untouched install (pd0 removed, and internal ux0 of size ~300MB created) - navigate to "Options->Storage size", and select "300MB"
-  
+5) Now, we will install the mod. Open IMCUnlock, accept the agreement, select "Set IMC storage size" and the option that suits you:
+   - 0MB - Default on 1XXX units.
+   
+   - 100MB - Creates a ~100MB imc partition, pd0 is resized to 150MB, requires formatting the new partition via settings or safemode.
+
+   - 300MB - pd0 becomes imc.
+ 
+   - 1GB - Default on 2XXX and TV units, creates a ~1GB imc partition, ur0 is resized to 1.5GB, requires formatting the new partition via settings or safemode.
+
+   - 1.5GB - Creates a ~1.5GB imc partition, ur0 is resized to 1GB, requires formatting the new partition via settings or safemode.
+
+   - 2.5GB - pd0 becomes ur0, and imc takes ur0's place. Remember to backup important data from ur0 before choosing this option.
+
+   - 2.8GB - pd0 becomes ur0, ud0 and ur0 are trimmed to 160MB, a ~2.8GB imc partition is created, requires formatting the new partition via settings or safemode, at reboot enter safemode by holding PS+R+POWER and restore the system (you need to do it only one time). Remember to backup important data from ur0 before choosing this option.
+
+   - Hybrid pd0 and imc - makes pd0 and imc share the same data region (pd0 = imc).
+
+   - Hybrid pd0 and ur0, imc 2.5GB - ur0 becomes imc, makes pd0 and ur0 share the same data region (pd0 = ur0). Remember to backup important data from ur0 before choosing this option.
+
+   - Hybrid ud0 and imc - makes ud0 and imc share the same data region (ud0 = imc).
+
+   - Hybrid ud0 and ur0, imc 2.5GB - ur0 becomes imc, makes ud0 and ur0 share the same data region (ud0 = ur0). Remember to backup important data from ur0 before choosing this option.
+
 6) A prompt asking if you are sure that you want to flash IMCUnlock will appear. After preesing "Yes" the installer will start the flash process.
 
 7) DO NOT TOUCH THE DEVICE UNTIL IT FINISHES
@@ -51,19 +63,23 @@ Although you can get back the BGM by using https://github.com/SKGleba/IMCUnlock/
  - Q: My device is stuck on bootlogo/health warning/spinning circle, help!
    - A: If enso logo - reinstall the firmware, If sony logo/health warning/spinning circle - remove sony mc, boot to safemode, select "Format Memory Card". Alternatively, system restore may help.
  - Q: Why the vita does a soft reboot when i remove/insert the mc?
-   - A: Patches are applied. (TBH idk, something related to the parser)
+   - A: Patches are applied.
  - Q: How can i restore a backupped partition image?
    - A: "Options->Restore"
  - Q: Im getting a critical error at boot, and i cant restore the firmware via safemode.
    - A: Something happened while the installer was running, its a unrecoverable BRICK.
- - Q: Is this tool compatible with XXXXX?
-   - A: No
  - Q: You did a great job! How can i help/donate you?
    - A: paypal.me/skgleba (thx! ^_^)
  
  # Useful notes:
+- If you dont know which option you should pick - go for the 100MB one.
 - You should uninstall IMCUnlock from a external storage device i.e sony mc or sd2vita, because the risk of softlocking the vita is high.
 - You can not use unofficial enso mods that are not listed as "supported".
 - I recommend doing a backup of pd0:
 - The 300MB storage is in reality a ~250MB one.
+- For a video "guide"/demonstration check out:
+   - https://www.youtube.com/watch?v=UvpwwdN4IFQ
+   - https://www.youtube.com/watch?v=eKRxQ_4bJVQ
+   - https://www.youtube.com/watch?v=OlMw_JOoeY8
+- If you choose a option that removes pd0 you can get back the BGM by using https://github.com/SKGleba/IMCUnlock/tree/master/pd0-spoof
 - For any serious issue/help DM me on twitter (twitter.com/skgleba)
