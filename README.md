@@ -18,7 +18,7 @@ This mod allows you to _permanently_ add/manage a internal ux0 storage on the PS
 4) Disable all unnecessary plugins and reboot.
 
 5) Now, we will install the mod. Open IMCUnlock, accept the agreement, select "Set IMC storage size" and the option that suits you:
-   - 0MB - Default on 1XXX units.
+   - 0MB - Default on 1XXX units, no imc partition, only 2.5GB ur0.
    
    - 100MB - Creates a ~100MB imc partition, pd0 is resized to 150MB, requires formatting the new partition via settings or safemode.
 
@@ -64,8 +64,6 @@ This mod allows you to _permanently_ add/manage a internal ux0 storage on the PS
    - A: Patches are applied.
  - Q: How can i restore a backupped partition image?
    - A: "Options->Restore"
- - Q: Im getting a critical error at boot, and i cant restore the firmware via safemode.
-   - A: Something happened while the installer was running, its a unrecoverable BRICK.
  - Q: You did a great job! How can i help/donate you?
    - A: paypal.me/skgleba (thx! ^_^)
  
