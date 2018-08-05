@@ -4,7 +4,7 @@ MBR Magic
 ![ref0](https://cdn.discordapp.com/attachments/466454495258476545/475390620433776641/IMG_39801.JPG)
 
 # Introduction:
-This mod allows you to _permanently_ add/manage a internal ux0 storage on the PSP2 by modifying boot data regions.
+This mod allows you to _permanently_ add/manage a internal ux0 storage (imc) on the PSP2 by modifying boot data regions.
 
 ![ref1](https://cdn.discordapp.com/attachments/466454244929699861/466458976901529600/IMG_20180710_180418.jpg)
 
@@ -71,8 +71,6 @@ This mod allows you to _permanently_ add/manage a internal ux0 storage on the PS
 - If you dont know which option you should pick - go for the 100MB one.
 - You should install IMCUnlock on a external storage device i.e sony mc or sd2vita, because the risk of softlocking the vita is high.
 - You can not use unofficial enso mods that are not listed as "supported".
-- I recommend doing a backup of pd0:
-- The 300MB storage is in reality a ~250MB one.
 - For a video "guide"/demonstration check out:
    - https://www.youtube.com/watch?v=UvpwwdN4IFQ
    - https://www.youtube.com/watch?v=eKRxQ_4bJVQ
