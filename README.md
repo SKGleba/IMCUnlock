@@ -1,5 +1,5 @@
 # IMCUnlock
-MBR Magic by SKGleba
+MBR Magic
 
 ![ref0](https://cdn.discordapp.com/attachments/466454495258476545/475390620433776641/IMG_39801.JPG)
 
@@ -11,20 +11,20 @@ This mod allows you to _permanently_ add/manage a internal ux0 storage on the PS
 # Installation:
 1) Download and install the provided VPK file. If you are using ENSO NSKBL hack, make sure that the correct enso installer is installed (You can grab one from here: https://github.com/SKGleba/IMCUnlock/tree/master/enso-installers), DO NOT SKIP THAT STEP!.
 
-2) Make a backup of all important ur0 files (they should be safe, but better to be sure)
+2) Make a backup of all important ur0 files (they should be safe, but better to be sure).
 
-3) Open IMCUnlock, accept the agreement, navigate to "Options->Backup", and select "Backup vd0". Eventually you may backup pd0/tm0/id_data too. Dumps are saved to ux0:data/%name%.img
+3) Open IMCUnlock, accept the agreement, navigate to "Options->Backup", and select "Backup vd0". Eventually you may backup pd0/tm0/id_data too. Dumps are saved to ux0:data/%name%.img.
 
 4) Disable all unnecessary plugins and reboot.
 
-5) Now, we will install the mod. Open IMCUnlock, accept the agreement, select "Set IMC storage size" and the option that suits you:
+5) Now, we will install the mod. Open IMCUnlock, accept the agreement, select "Set IMC storage size" and then the option that suits you:
    - 0MB - Default on 1XXX units, no imc partition, only 2.5GB ur0.
    
    - 100MB - Creates a ~100MB imc partition, pd0 is resized to 150MB, requires formatting the new partition via settings or safemode.
 
    - 300MB - pd0 becomes imc.
  
-   - 1GB - Default on 2XXX and TV units, creates a ~1GB imc partition, ur0 is resized to 1.5GB, requires formatting the new partition via settings or safemode.
+   - 1GB - Default on 2XXX and TV units, a ~1GB imc partition, ur0 1.5GB, on Phats requires formatting the new partition via settings or safemode.
 
    - 1.5GB - Creates a ~1.5GB imc partition, ur0 is resized to 1GB, requires formatting the new partition via settings or safemode.
 
@@ -49,11 +49,11 @@ This mod allows you to _permanently_ add/manage a internal ux0 storage on the PS
 
 9) If you are a user of ENSO NSKBL hack - launch the enso installer and install enso (DO NOT SKIP THAT STEP!), otherwise - reboot.
 
-10) If your vita reboots fine - thats it! You just permanently enabled internal ux0 storage on your phat vita.
+10) If your vita reboots fine - thats it!
 
 # FAQ:
  - Q: What do you mean by "permanent"? Does it stay after fw update/reinstall?
-   - A: Yes, the only way to remove the mod is to uninstall via the provided manager.
+   - A: Yes, the only way to remove the mod is via the provided manager.
  - Q: Can I update when a new firmware comes out?
    - A: No, you should wait for someone to confirm that it works/or that it breaks the vita.
  - Q: Everything flashed fine, but i dont have the additional partition.
@@ -69,7 +69,7 @@ This mod allows you to _permanently_ add/manage a internal ux0 storage on the PS
  
  # Useful notes:
 - If you dont know which option you should pick - go for the 100MB one.
-- You should uninstall IMCUnlock from a external storage device i.e sony mc or sd2vita, because the risk of softlocking the vita is high.
+- You should install IMCUnlock on a external storage device i.e sony mc or sd2vita, because the risk of softlocking the vita is high.
 - You can not use unofficial enso mods that are not listed as "supported".
 - I recommend doing a backup of pd0:
 - The 300MB storage is in reality a ~250MB one.
