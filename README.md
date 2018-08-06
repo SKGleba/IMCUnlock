@@ -68,6 +68,7 @@ This mod allows you to _permanently_ add/manage a internal ux0 storage (imc) on 
    - A: paypal.me/skgleba (thx! ^_^)
  
  # Useful notes:
+- If you are using IMCUnlock v2.xx DO NOT uninstall it via menu, there is a bug in how PBR is parsed which may cause a "format the mc" loop, use this tool and the 0MB option instead.
 - If you dont know which option you should pick - go for the 100MB one.
 - You should install IMCUnlock on a external storage device i.e sony mc or sd2vita, because the risk of softlocking the vita is high.
 - You can not use unofficial enso mods that are not listed as "supported".
