@@ -9,7 +9,7 @@ This mod allows you to _permanently_ add/manage a internal ux0 storage (imc) on 
 ![ref1](https://cdn.discordapp.com/attachments/466454244929699861/466458976901529600/IMG_20180710_180418.jpg)
 
 # Installation:
-1) Download and install the provided VPK file. If you are using ENSO NSKBL hack, make sure that the correct enso installer is installed (You can grab one from here: https://github.com/SKGleba/IMCUnlock/tree/master/enso-installers), DO NOT SKIP THAT STEP!.
+1) Download and install the provided VPK file. If you are using ENSO NSKBL hack, make sure that the correct enso installer is installed (You can grab a universal one from here: https://github.com/SKGleba/IMCUnlock/tree/master/enso-installers), DO NOT SKIP THAT STEP!.
 
 2) Make a backup of all important ur0 files (they should be safe, but better to be sure).
 
@@ -18,7 +18,7 @@ This mod allows you to _permanently_ add/manage a internal ux0 storage (imc) on 
 4) Disable all unnecessary plugins and reboot.
 
 5) Now, we will install the mod. Open IMCUnlock, accept the agreement, select "Set IMC storage size" and then the option that suits you:
-   - 0MB - Default on 1XXX units, no imc partition, only 2.5GB ur0.
+   - 0MB - Default on 1XXX units, no imc partition, only 2.5GB ur0, a sony memory card MUST be inserted and mounted as ux0.
    
    - 100MB - Creates a ~100MB imc partition, pd0 is resized to 150MB, requires formatting the new partition via settings or safemode.
 
