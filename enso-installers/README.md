@@ -1,5 +1,1 @@
-Format:
-- FIRMWARE-CONFIGLOCATION-ATTRIB(OPT)
-
-Attribs available:
-- NL: No Molecule BootLogo
+Source: https://github.com/SKGleba/enso_ex
