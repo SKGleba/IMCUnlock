@@ -64,8 +64,6 @@ This mod allows you to _permanently_ add/manage a internal ux0 storage (imc) on 
    - A: Patches are applied.
  - Q: How can i restore a backupped partition image?
    - A: "Options->Restore"
- - Q: You did a great job! How can i help/donate you?
-   - A: paypal.me/skgleba (thx! ^_^)
  
  # Useful notes:
 - If you are using IMCUnlock v2.xx DO NOT uninstall it via menu, there is a bug in how PBR is parsed which may cause a "format the mc" loop, use this tool and the 0MB option instead.
