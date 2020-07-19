@@ -1,0 +1,15 @@
+iuxulkernel:
+  attributes: 0
+  version:
+    major: 1
+    minor: 1
+  main:
+    start: module_start
+    stop: module_stop
+  modules:
+    iuxulkernel:
+      syscall: true
+      functions:
+        - kimcu_emmc_size
+        - kimcu_work_mbrpart
+        - kimcu_get_mc_rls
